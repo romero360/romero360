@@ -1,0 +1,37 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Credential files
+credentials.json
+service-account.json
+secrets.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node.js
+node_modules/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Operating system and editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+  
